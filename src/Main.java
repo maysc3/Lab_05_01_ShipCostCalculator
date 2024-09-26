@@ -21,7 +21,7 @@ public class Main {
             System.exit(0);
         }
         shippingCost = itemPrice * SHIPPING_COST_RATE;
-        if(itemPrice >= SHIPPING_COST_RATE)
+        if(itemPrice >= SHIPPING_COST_CUTOFF)
         {
             finalPrice = itemPrice;
             shippingCost = 0;
